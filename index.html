@@ -3,30 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Central de Vagas</title>
+    <title>Central de Vagas - Repositórios GitHub</title>
     <style>
-        /* Estilos básicos para a página */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            background-color: #f0f0f0;
+            background-color: #f5f5f5;
         }
 
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
         }
 
         .header {
             text-align: center;
             padding: 20px;
-            background-color: #2c3e50;
+            background-color: #24292e;
             color: white;
             border-radius: 5px;
+            margin-bottom: 20px;
         }
 
-        .vaga {
+        .section {
+            margin: 20px 0;
+        }
+
+        .section h2 {
+            color: #24292e;
+            border-bottom: 2px solid #24292e;
+            padding-bottom: 5px;
+        }
+
+        .category {
             background-color: white;
             padding: 15px;
             margin: 10px 0;
@@ -34,65 +44,196 @@
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
 
-        .vaga h3 {
+        .category h3 {
             margin: 0 0 10px 0;
-            color: #2c3e50;
+            color: #0366d6;
         }
 
-        .vaga p {
-            margin: 5px 0;
+        .category ul {
+            list-style-type: none;
+            padding: 0;
         }
 
-        .botao-aplicar {
-            background-color: #3498db;
-            color: white;
-            padding: 8px 15px;
-            border: none;
-            border-radius: 3px;
-            cursor: pointer;
+        .category li {
+            margin: 8px 0;
         }
 
-        .botao-aplicar:hover {
-            background-color: #2980b9;
+        .category a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        .category a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Cabeçalho da página -->
         <div class="header">
             <h1>Central de Vagas</h1>
-            <p>Encontre sua próxima oportunidade de trabalho</p>
+            <p>Repositórios GitHub com Oportunidades para Desenvolvedores</p>
         </div>
 
-        <!-- Exemplo de vaga 1 -->
-        <div class="vaga">
-            <h3>Desenvolvedor Front-end</h3>
-            <p><strong>Empresa:</strong> Tech Solutions</p>
-            <p><strong>Local:</strong> São Paulo - SP (Remoto)</p>
-            <p><strong>Requisitos:</strong> HTML, CSS, JavaScript, React</p>
-            <p><strong>Salário:</strong> R$ 5.000 - R$ 7.000</p>
-            <button class="botao-aplicar">Candidatar-se</button>
+        <!-- Por Área -->
+        <div class="section">
+            <h2>Por Área</h2>
+            <div class="category">
+                <h3>Vagas para Desenvolvedores Back-End</h3>
+                <ul>
+                    <li><a href="https://github.com/exemplo/backend-jobs" target="_blank">Backend Jobs</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Vagas para Desenvolvedores Chat-Bot</h3>
+                <ul>
+                    <li><a href="https://github.com/exemplo/chatbot-jobs" target="_blank">Chatbot Opportunities</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Vagas para Desenvolvedores Front-End</h3>
+                <ul>
+                    <li><a href="https://github.com/exemplo/frontend-jobs" target="_blank">Frontend Jobs</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Vagas para Desenvolvedores Web3</h3>
+                <ul>
+                    <li><a href="https://github.com/exemplo/web3-jobs" target="_blank">Web3 Careers</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Vagas para UI/UX</h3>
+                <ul>
+                    <li><a href="https://github.com/exemplo/uiux-jobs" target="_blank">UI/UX Opportunities</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Vagas para QAs</h3>
+                <ul>
+                    <li><a href="https://github.com/exemplo/qa-jobs" target="_blank">QA Jobs</a></li>
+                </ul>
+            </div>
         </div>
 
-        <!-- Exemplo de vaga 2 -->
-        <div class="vaga">
-            <h3>Analista de Marketing</h3>
-            <p><strong>Empresa:</strong> Marketing Digital Ltda</p>
-            <p><strong>Local:</strong> Rio de Janeiro - RJ</p>
-            <p><strong>Requisitos:</strong> Experiência com SEO e Google Ads</p>
-            <p><strong>Salário:</strong> R$ 4.000 - R$ 6.000</p>
-            <button class="botao-aplicar">Candidatar-se</button>
+        <!-- Por Tecnologia -->
+        <div class="section">
+            <h2>Por Tecnologia</h2>
+            <div class="category">
+                <h3>Vagas para Desenvolvedores Android</h3>
+                <ul>
+                    <li><a href="https://github.com/exemplo/android-jobs" target="_blank">Android Jobs</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Vagas para Desenvolvedores iOS e OSX</h3>
+                <ul>
+                    <li><a href="https://github.com/exemplo/ios-jobs" target="_blank">iOS & OSX Jobs</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Vagas para Desenvolvedores PHP</h3>
+                <ul>
+                    <li><a href="https://github.com/exemplo/php-jobs" target="_blank">PHP Jobs</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Vagas para Desenvolvedores Python</h3>
+                <ul>
+                    <li><a href="https://github.com/exemplo/python-jobs" target="_blank">Python Jobs</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Vagas para Desenvolvedores Vue.js</h3>
+                <ul>
+                    <li><a href="https://github.com/exemplo/vuejs-jobs" target="_blank">Vue.js Jobs</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Vagas para Desenvolvedores Go/Golang</h3>
+                <ul>
+                    <li><a href="https://github.com/exemplo/golang-jobs" target="_blank">Go Jobs</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Vagas para Flutter</h3>
+                <ul>
+                    <li><a href="https://github.com/exemplo/flutter-jobs" target="_blank">Flutter Jobs</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Vagas para React/React Native</h3>
+                <ul>
+                    <li><a href="https://github.com/exemplo/react-jobs" target="_blank">React Jobs</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Vagas para Desenvolvedores .NET</h3>
+                <ul>
+                    <li><a href="https://github.com/exemplo/dotnet-jobs" target="_blank">.NET Jobs</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Vagas para Desenvolvedores Rust</h3>
+                <ul>
+                    <li><a href="https://github.com/exemplo/rust-jobs" target="_blank">Rust Jobs</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Vagas para Desenvolvedores Elm</h3>
+                <ul>
+                    <li><a href="https://github.com/exemplo/elm-jobs" target="_blank">Elm Jobs</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Vagas para Desenvolvedores Kotlin</h3>
+                <ul>
+                    <li><a href="https://github.com/exemplo/kotlin-jobs" target="_blank">Kotlin Jobs</a></li>
+                </ul>
+            </div>
         </div>
 
-        <!-- Exemplo de vaga 3 -->
-        <div class="vaga">
-            <h3>Assistente Administrativo</h3>
-            <p><strong>Empresa:</strong> Empresa XYZ</p>
-            <p><strong>Local:</strong> Belo Horizonte - MG</p>
-            <p><strong>Requisitos:</strong> Pacote Office, organização</p>
-            <p><strong>Salário:</strong> R$ 2.500 - R$ 3.500</p>
-            <button class="botao-aplicar">Candidatar-se</button>
+        <!-- Por Localidade -->
+        <div class="section">
+            <h2>Por Localidade</h2>
+            <div class="category">
+                <h3>Vagas para Desenvolvedores no Ceará</h3>
+                <ul>
+                    <li><a href="https://github.com/exemplo/ceara-jobs" target="_blank">Ceará Dev Jobs</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Vagas para Desenvolvedores Front-end (Angola)</h3>
+                <ul>
+                    <li><a href="https://github.com/exemplo/angola-frontend" target="_blank">Angola Frontend</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Vagas para Desenvolvedores Back-end (Angola)</h3>
+                <ul>
+                    <li><a href="https://github.com/exemplo/angola-backend" target="_blank">Angola Backend</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Vagas para Desenvolvedores Front-end (Portugal)</h3>
+                <ul>
+                    <li><a href="https://github.com/exemplo/portugal-frontend" target="_blank">Portugal Frontend</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Vagas para Desenvolvedores Back-end (Portugal)</h3>
+                <ul>
+                    <li><a href="https://github.com/exemplo/portugal-backend" target="_blank">Portugal Backend</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Licença -->
+        <div class="section">
+            <h2>Licença</h2>
+            <div class="category">
+                <p>Este conteúdo está licenciado sob a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Licença Creative Commons Attribution 4.0</a>.</p>
+            </div>
         </div>
     </div>
 </body>
